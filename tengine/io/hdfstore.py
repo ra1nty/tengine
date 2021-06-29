@@ -5,7 +5,7 @@ import pandas as pd
 from tqdm import tqdm
 from tengine.core import TimeSeries
 from tengine.logging import get_logger, raise_if, raise_log, raise_if_not
-from tengine.io.rootstore import ReadWriteStore
+from tengine.io.base import ReadWriteStore
 
 
 logger = get_logger(__name__)
